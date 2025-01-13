@@ -9,7 +9,7 @@ resource "aws_instance" "abhishek" {
 }
 
 resource "aws_s3_bucket" "s3_bucket" {
-  bucket = "abhishek-s3-demo-xyz" # change this
+  bucket = "madan-s3-demo" # change this
 }
 
 resource "aws_dynamodb_table" "terraform_lock" {
